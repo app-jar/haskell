@@ -1,0 +1,20 @@
+cabal-version:      3.0
+name:               gauss
+version:            0.1.0.0
+synopsis:           A new Haskell project
+license:            BSD-3-Clause
+license-file:       LICENSE
+author:             Haskell Developer
+category:           Development
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable gauss
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base >= 4.14 && < 5
+    hs-source-dirs:   app
+    default-language: GHC2021
