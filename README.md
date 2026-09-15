@@ -5,9 +5,13 @@
 ## Проекты
 
 ### MergeSort
+*Код*: https://github.com/app-jar/haskell/blob/main/MergeSort/app/Main.hs
+
 Небольшой проект для демонстрации алгоритма сортировки слиянием. Помимо саой сортировки выводит рекурсивный лог разбиения и слияния списков
 
 ### Gauss
+*Код*: https://github.com/app-jar/haskell/blob/main/Gauss/app/Main.hs
+
 Реализация метода Гаусса-Жордана для решения систем линенйных алгебраических уравнений
 https://mathprofi.ru/metod_gaussa_dlya_chainikov.html
 
